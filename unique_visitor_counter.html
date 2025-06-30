@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unique Visitor Counter</title>
+  <script src="https://counterapi.com/c.js" async></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .counterapi {
+      font-size: 18px;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px;
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-family: sans-serif;
+    }
+    .counterapi::before {
+      content: "\1F441"; /* Unicode for eye emoji */
+      font-size: 18px;
+      color: cyan;
+    }
+  </style>
+</head>
+<body>
+  <div class="counterapi" data-id="masterdagames-home"></div>
+</body>
+</html>
